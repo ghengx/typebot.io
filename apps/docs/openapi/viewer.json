@@ -10992,6 +10992,9 @@
               "content": {
                 "type": "string"
               },
+              "isCode": {
+                "type": "boolean"
+              },
               "args": {
                 "type": "array",
                 "items": {
@@ -11089,6 +11092,9 @@
                 "properties": {
                   "content": {
                     "type": "string"
+                  },
+                  "isCode": {
+                    "type": "boolean"
                   },
                   "args": {
                     "type": "array",
@@ -11233,6 +11239,9 @@
                 "properties": {
                   "content": {
                     "type": "string"
+                  },
+                  "isCode": {
+                    "type": "boolean"
                   },
                   "args": {
                     "type": "array",
