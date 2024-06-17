@@ -9,6 +9,7 @@ import { useTranslate } from '@tolgee/react'
 import { useWorkspace } from '@/features/workspace/WorkspaceProvider'
 import { WorkspaceDropdown } from '@/features/workspace/components/WorkspaceDropdown'
 import { WorkspaceSettingsModal } from '@/features/workspace/components/WorkspaceSettingsModal'
+import { Image } from '@chakra-ui/react'
 
 export const DashboardHeader = () => {
   const { t } = useTranslate()
@@ -29,13 +30,22 @@ export const DashboardHeader = () => {
         maxW="1000px"
         flex="1"
       >
-        <Link href="/typebots" data-testid="typebot-logo">
-          <EmojiOrImageIcon
-            boxSize="30px"
-            icon={workspace?.icon}
-            defaultIcon={HardDriveIcon}
-          />
-        </Link>
+        <HStack>
+          <Link href="/typebots" data-testid="typebot-logo">
+            <EmojiOrImageIcon
+              boxSize="30px"
+              icon={workspace?.icon}
+              defaultIcon={HardDriveIcon}
+            />
+          </Link>
+          <Image
+            src="/images/dah-settle.png"
+            boxSize="150px"
+            alt="Dah Settle logo"
+            objectFit="contain"
+          ></Image>
+        </HStack>
+
         <HStack>
           {user && workspace && !workspace.isPastDue && (
             <WorkspaceSettingsModal

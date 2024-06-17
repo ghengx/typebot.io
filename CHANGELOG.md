@@ -1,6 +1,7 @@
 # Changelog
 
 <a name="2.26.1"></a>
+
 ## 2.26.1 (2024-06-04)
 
 ### Fixed
@@ -11,8 +12,8 @@
 
 - 📝 Add v2.26 newsletter [[45aa4c6](https://github.com/baptisteArno/typebot.io/commit/45aa4c6da5f24d12cfa0f0c582f47a32fc28ee05)]
 
-
 <a name="2.26.0"></a>
+
 ## 2.26.0 (2024-05-30)
 
 ### Added
@@ -64,10 +65,10 @@
 - 📝 Add &quot;How to train chatbot on your own data&quot; article ([#1516](https://github.com/baptisteArno/typebot.io/issues/1516)) [[29040c6](https://github.com/baptisteArno/typebot.io/commit/29040c67e1cddf63122516c362c34698efa72d80)]
 - 📝 Add release section in self-hosting get-started page [[076a950](https://github.com/baptisteArno/typebot.io/commit/076a9503ef566294696b61544ed59183ada2c0ed)]
 - 📄 Add Commercial License for ee folder ([#1532](https://github.com/baptisteArno/typebot.io/issues/1532)) [[0eacbeb](https://github.com/baptisteArno/typebot.io/commit/0eacbebbbe4366bf4467c196eb3fa922bc82f628)]
--  :monocle_face: Improve chat session inspection script [[ab9e36f](https://github.com/baptisteArno/typebot.io/commit/ab9e36f68d5458398af2d4bae0a82d00303a4de4)]
-
+- :monocle_face: Improve chat session inspection script [[ab9e36f](https://github.com/baptisteArno/typebot.io/commit/ab9e36f68d5458398af2d4bae0a82d00303a4de4)]
 
 <a name="2.25.2"></a>
+
 ## 2.25.2 (2024-05-21)
 
 ### Added
@@ -89,8 +90,8 @@
 - 🐛 (wa) Fix WhatsApp session stuck if state object is empty [[8351e20](https://github.com/baptisteArno/typebot.io/commit/8351e20fd30a732d51c09bbe2552fbb4edeec872)]
 - 🚑 (setVariable) Fix inline code parser [[91603aa](https://github.com/baptisteArno/typebot.io/commit/91603aa6cee6b6effd20ef8a2ab6de1cee0f534c)]
 
-
 <a name="2.25.1"></a>
+
 ## 2.25.1 (2024-05-14)
 
 ### Added
@@ -128,8 +129,8 @@
 - 📝 (openai) Add Ask Assistant video demo [[86441a5](https://github.com/baptisteArno/typebot.io/commit/86441a5337c3d78d511a441274d0bd752abb73ce)]
 - 📝 Add &#x27;best chatbot for wordpress&#x27; blog post ([#1489](https://github.com/baptisteArno/typebot.io/issues/1489)) [[3b3e3fd](https://github.com/baptisteArno/typebot.io/commit/3b3e3fd79245410c6ee34bbc116d50017173cf24)]
 
-
 <a name="2.25.0"></a>
+
 ## 2.25.0 (2024-05-01)
 
 ### Added
@@ -208,7 +209,6 @@
 - 🐳 Fix docker build with new prisma version [[40b16ea](https://github.com/baptisteArno/typebot.io/commit/40b16ea902bbcb6d725608e3de1d964c0f6e1c3b)]
 - 🧑‍💻 Allow admin email to signup even if disabled [[b5b0788](https://github.com/baptisteArno/typebot.io/commit/b5b0788115bf3aa20b25791901fb41cb0bf80037)]
 - 📝 Update db migration command instructions ([#1410](https://github.com/baptisteArno/typebot.io/issues/1410)) [[b6a31c2](https://github.com/baptisteArno/typebot.io/commit/b6a31c29440f2fbdb3a22fb24382c3782f51f1c7)]
-
 
 <a name="2.24.1"></a>
 
