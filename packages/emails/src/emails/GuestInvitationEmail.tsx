@@ -38,18 +38,18 @@ export const GuestInvitationEmail = ({
       <MjmlSection padding="0 24px" cssClass="smooth">
         <MjmlColumn>
           <Text>
-            You have been invited by {hostEmail} to collaborate on his typebot{' '}
-            <strong>{typebotName}</strong>.
+            You have been invited by {hostEmail} to collaborate on their Dah
+            Settle Bot <strong>{typebotName}</strong>.
           </Text>
           <Text>
-            From now on you will see this typebot in your dashboard under his
-            workspace &quot;{workspaceName}&quot; 👍
+            From now on you will see this Dah Settle Bot in your dashboard under
+            their workspace &quot;{workspaceName}&quot; 👍
           </Text>
           <Text>
             Make sure to log in as <i>{guestEmail}</i>.
           </Text>
           <MjmlSpacer height="24px" />
-          <Button link={url}>Go to typebot</Button>
+          <Button link={url}>Go to Dah Settle</Button>
         </MjmlColumn>
       </MjmlSection>
     </MjmlBody>

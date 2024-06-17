@@ -36,8 +36,9 @@ export const WorkspaceMemberInvitation = ({
       <MjmlSection padding="0 24px" cssClass="smooth">
         <MjmlColumn>
           <Text>
-            You have been invited by {hostEmail} to collaborate on his workspace{' '}
-            <strong>{workspaceName}</strong> as a team member.
+            You have been invited by {hostEmail} to collaborate on their Dah
+            Settle Bot workspace <strong>{workspaceName}</strong> as a team
+            member.
           </Text>
           <Text>
             From now on you will see this workspace in your dashboard 👍

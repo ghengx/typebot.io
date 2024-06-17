@@ -431,7 +431,7 @@ export const env = createEnv({
     ...customOAuthEnv.server,
     ...sentryEnv.server,
     ...telemetryEnv.server,
-    ...keycloakEnv.server
+    ...keycloakEnv.server,
   },
   client: {
     ...baseEnv.client,

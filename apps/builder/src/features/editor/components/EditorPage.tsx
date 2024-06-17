@@ -18,7 +18,8 @@ import { TypebotNotFoundPage } from './TypebotNotFoundPage'
 import { SuspectedTypebotBanner } from './SuspectedTypebotBanner'
 import { useWorkspace } from '@/features/workspace/WorkspaceProvider'
 import { VariablesDrawer } from '@/features/preview/components/VariablesDrawer'
-import { VideoOnboardingFloatingWindow } from '@/features/onboarding/components/VideoOnboardingFloatingWindow'
+import { Bubble } from '@typebot.io/nextjs'
+
 
 export const EditorPage = () => {
   const { typebot, currentUserMode, is404 } = useTypebot()
@@ -75,6 +76,10 @@ export const EditorPage = () => {
           )}
         </Flex>
       </Flex>
+      <Bubble
+        typebot="my-chatbot-16da63a"
+        theme={{ button: { backgroundColor: '#0042DA' } }}
+      />
     </EditorProvider>
   )
 }
